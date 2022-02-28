@@ -1,0 +1,31 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  text-align: center;
+  
+  
+}
+.title {
+  margin-right: 10px;
+  line-height: 40px;
+  font-size: $base-size*1.2;
+}
+
+.input {
+  min-width: 200px;
+  background: $color-light;
+  border: 1px solid lighten($color-dark, 60%);
+  font-family: $font-text;
+  border-radius: $radius;
+  margin-right: 20px;
+  height: 40px;
+}
+
+.buttonInput {
+  height: 65px;
+}
