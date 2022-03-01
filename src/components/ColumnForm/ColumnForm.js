@@ -19,7 +19,7 @@ const Column = props => {
       <span className={styles.title}>Title:</span>
       <input className={styles.input} type="text" value={title} onChange={e => setTitle(e.target.value)} />
       <span className={styles.title}>Icon:</span>
-      <input className={styles.input} type="text"/>
+      <input className={styles.input} type="text" value={icon} onChange={e => setIcon(e.target.value)} />
       <Button>Add column</Button>
     </form>
 	);
