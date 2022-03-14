@@ -1,0 +1,16 @@
+@import '../../styles/settings.scss';
+
+.listForm {
+  margin: 0 auto;
+  padding-top: 3%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+span {
+  margin-right: $base-size;
+  font-size: $base-size*1.4;
+}
