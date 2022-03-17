@@ -22,6 +22,10 @@
   }
 
   &.isFavorite {
+    color: gold;
+  }
+  
+  &.trash:hover {
     color: $color-warning;
   }
 }
